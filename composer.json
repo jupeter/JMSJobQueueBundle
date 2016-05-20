@@ -1,5 +1,5 @@
 {
-    "name":         "jms/job-queue-bundle",
+    "name":         "jupeter/job-queue-bundle",
     "description":  "Allows to schedule Symfony2 console commands as jobs.",
     "keywords":     ["job","queue"],
     "homepage":     "http://jmsyst.com/bundles/JMSJobQueueBundle",
@@ -7,13 +7,17 @@
     "license":      "Apache2",
     "authors": [
         {
+            "name":   "Piotr Plenik",
+            "email":  "piotr.plenik@gmail.com"
+        },
+        {
             "name":   "Johannes M. Schmitt",
             "email":  "schmittjoh@gmail.com"
         }
     ],
     "require": {
         "php": "^5.5.0 || ^7.0",
-        "symfony/framework-bundle": ">=2.1,<3.0-dev",
+        "symfony/framework-bundle": ">=2.1,<3.1",
         "doctrine/common": ">=2.3,<3.0",
         "jms/di-extra-bundle": ">=1.1,<2.0"
     },
